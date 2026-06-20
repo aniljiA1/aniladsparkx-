@@ -1,0 +1,20 @@
+BILLING AND REFUND POLICY
+
+1. BILLING CYCLE
+Customers are billed monthly on the anniversary of their signup date. Invoices are generated automatically and emailed as PDF receipts.
+
+2. DUPLICATE CHARGES
+Duplicate charges can occur due to payment gateway retries during network timeouts. If you notice a duplicate charge:
+- Duplicate charges are automatically detected by our reconciliation system within 24-48 hours and refunded automatically in most cases.
+- If not auto-refunded within 3 business days, this should be escalated to the billing team for manual review, since it involves direct financial dispute.
+
+3. REFUND ELIGIBILITY
+- Monthly subscriptions: refundable within 7 days of charge if usage was minimal.
+- Annual subscriptions: prorated refund available within 30 days.
+- Add-on purchases (storage, seats): non-refundable once provisioned.
+
+4. FAILED PAYMENTS
+If a payment fails, the account enters a 7-day grace period before service is suspended. Customers receive 3 email reminders during this period.
+
+5. DISPUTES AND CHARGEBACKS
+Any billing dispute, chargeback, or legal inquiry must be routed to a human billing specialist; automated systems cannot issue manual refunds or discuss legal liability.
