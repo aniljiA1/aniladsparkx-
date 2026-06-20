@@ -22,6 +22,8 @@ Backend-docs: https://aniladsparkxbackend.onrender.com/docs
 
 frontend: https://aniladsparkx.vercel.app
 
+---
+
 ## 1. Project Overview
 
 The agent classifies every incoming message into one of three personas, retrieves the most
