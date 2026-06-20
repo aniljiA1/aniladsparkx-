@@ -11,8 +11,8 @@ required for moderate usage) — get a free key at https://aistudio.google.com/a
 - **Frontend**: React + Vite
 - **Backend**: Python + FastAPI
 - **Database**: MongoDB (stores knowledge-base chunks + embeddings, conversation history, escalations)
-- **LLM**: Google Gemini (`gemini-2.0-flash`, free tier)
-- **Embeddings**: Google Gemini (`text-embedding-004`, free tier)
+- **LLM**: Google Gemini (`gemini-2.5-flash`, free tier)
+- **Embeddings**: Google Gemini (`text-embedding-001`, free tier)
 
 ---
 
@@ -36,8 +36,8 @@ or the user remains frustrated across multiple turns.
 | Backend | Uvicorn | 0.29+ |
 | Database | MongoDB | 6.x / Atlas |
 | Database driver | PyMongo | 4.6+ |
-| LLM | Google Gemini `gemini-2.0-flash` (free tier) | via `google-genai` SDK |
-| Embeddings | Google Gemini `text-embedding-004` (free tier) | via `google-genai` SDK |
+| LLM | Google Gemini `gemini-2.5-flash` (free tier) | via `google-genai` SDK |
+| Embeddings | Google Gemini `text-embedding-001` (free tier) | via `google-genai` SDK |
 | Chunking | `langchain-text-splitters` `RecursiveCharacterTextSplitter` | 0.3+ |
 | PDF parsing | `pypdf` | 4.2+ |
 | Vector math | `numpy` (cosine similarity) | 1.26+ |
@@ -199,8 +199,8 @@ Open the printed local URL (default `http://localhost:5173`).
 | Variable | Description | Default |
 |---|---|---|
 | `GEMINI_API_KEY` | **Required.** Free key from https://aistudio.google.com/apikey | — |
-| `CHAT_MODEL` | Gemini chat model | `gemini-2.0-flash` |
-| `EMBEDDING_MODEL` | Gemini embedding model | `text-embedding-004` |
+| `CHAT_MODEL` | Gemini chat model | `gemini-2.5-flash` |
+| `EMBEDDING_MODEL` | Gemini embedding model | `text-embedding-001` |
 | `MONGO_URI` | MongoDB connection string | `mongodb://localhost:27017` |
 | `MONGO_DB_NAME` | Database name | `persona_support_agent` |
 | `CHUNK_SIZE` | Characters per chunk | `500` |
