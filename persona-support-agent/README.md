@@ -126,7 +126,7 @@ or the user remains frustrated across multiple turns.
   (configurable via `.env`). This splits on paragraph → sentence → word boundaries first, falling
   back to character splits, to keep chunks semantically coherent while preserving context across
   boundaries via overlap.
-- **Embedding model**: Google Gemini `text-embedding-004` (768-dim, free tier).
+- **Embedding model**: Google Gemini `text-embedding-001` (768-dim, free tier).
 - **Vector storage choice**: Rather than a separate vector database process, embeddings are stored
   as arrays directly inside **MongoDB** documents (one document per chunk, with `source`, `page`,
   `section`, `text`, and `embedding` fields). This keeps the whole system on a single database
